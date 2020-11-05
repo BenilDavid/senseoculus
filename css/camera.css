@@ -1,0 +1,70 @@
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  text-transform: capitalize;
+  font-size: 45px;
+}
+/* navbar ..................................................*/
+.nav img{
+    width: 40px;
+    height: 40px;
+}
+
+ul{
+  margin: auto;  
+}
+li{ 
+    font-size: 16px;
+    text-transform: uppercase;
+  padding-left: 30px;
+}
+
+/* carousel .................................................*/
+.carousel-inner {
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+  }
+  .carousel-item{
+  position: relative;
+  color: white;
+  text-align: center;
+  }
+  .button{
+    position: absolute;
+    text-align: center;
+  }
+  .carousel-inner {
+    pointer-events: none;
+    z-index:10;
+    width: 100%; /*this must stay */
+    
+    height: 100%; /*this must stay */
+}
+  /* main Features section .................................*/
+  .row1,.row2,.row3,.row4,.row5,.row6,.row7,.row8,.row9{
+  width: 100%;
+  height: 80vh;
+  }
+
+  .col{
+    text-align: center;
+  }
+
+  .col p{
+    text-align: left;
+    padding-left: ;
+  }
+
+  .row1,.row3,.row5,.row7,.row9{
+  background-color: rgb(240, 233, 223);
+  }
+
+  .row2,.row4,.row6,.row8{
+    background-color: rgb(226, 225, 224);
+  }
+  
